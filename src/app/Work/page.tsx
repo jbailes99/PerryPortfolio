@@ -9,16 +9,16 @@ import 'react-social-icons/linkedin'
 export default function Work() {
   return (
     <div className='bg-white min-h-screen'>
-      <main className='pt-12'>
-        <div className='mt-32 sm:mt-12'>
+      <main className=''>
+        {/* <div className='py-12 bg-gray-50 '>
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
             <div className='mx-auto max-w-2xl sm:text-center'>
-              <h2 className='text-base font-semibold leading-7 text-indigo-600'>What I Do</h2>
-              <p className='mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+              <h2 className='text-base font-semibold leading-7 text-center text-indigo-600'>What I Do</h2>
+              <p className='mt-2 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl'>
                 Technical and Team Management Excellence
               </p>
             </div>
-            {/* <div className='mx-auto mt-8 max-w-7xl px-6 sm:mt-20 md:mt-14 lg:px-8'>
+            <div className='mx-auto mt-8 max-w-7xl px-6 sm:mt-20 md:mt-14 lg:px-8'>
               <dl className='mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
                 <div className='relative pl-9 flex flex-col'>
                   <dt className='inline font-semibold text-gray-900'>Leadership</dt>
@@ -33,14 +33,14 @@ export default function Work() {
                   <dd className='inline'>Skilled in implementing initiatives aligned with business goals.</dd>
                 </div>
               </dl>
-            </div> */}
+            </div>
           </div>
-        </div>
+        </div> */}
         <div className='py-24 sm:py-32'>
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
             <div className='mx-auto max-w-2xl text-center'>
               <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>Areas of Expertise</h2>
-              <p className='mt-2 text-lg leading-8 text-gray-600'>Core competencies and technical proficiencies</p>
+              <p className='mt-2 text-lg leading-8 text-indigo-600'>Core competencies and technical proficiencies</p>
             </div>
             <div className='mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none'>
               <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
@@ -89,10 +89,10 @@ export default function Work() {
                 <div className='space-y-8'>
                   <div className='relative group'>
                     <div className='absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-600 rounded-full group-hover:scale-125 transition-transform duration-300'></div>
-                    <div className='ml-auto w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
+                    <div className='ml-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
                       <div className='flex flex-col'>
                         <h3 className='text-lg font-semibold text-gray-900'>Director of IT and Technical Operations</h3>
-                        <p className='mt-1 text-sm text-indigo-600'>TheVets.com • 2024 - Present</p>
+                        <p className='mt-1 text-sm text-indigo-600'>TheVets • 2024 - Present</p>
                         <p className='mt-2 text-gray-600'>
                           Leading technical operations and driving organizational excellence through innovative
                           solutions.
@@ -108,10 +108,10 @@ export default function Work() {
 
                   <div className='relative group'>
                     <div className='absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-600 rounded-full group-hover:scale-125 transition-transform duration-300'></div>
-                    <div className='mr-auto w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
+                    <div className='mr-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
                       <div className='flex flex-col'>
                         <h3 className='text-lg font-semibold text-gray-900'>Director of Technology</h3>
-                        <p className='mt-1 text-sm text-indigo-600'>BetterVet.com • 2021 - 2024</p>
+                        <p className='mt-1 text-sm text-indigo-600'>BetterVet • 2021 - 2024</p>
                         <p className='mt-2 text-gray-600'>
                           Scaled technical operations and infrastructure during rapid company expansion.
                         </p>
@@ -126,7 +126,7 @@ export default function Work() {
 
                   <div className='relative group'>
                     <div className='absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-600 rounded-full group-hover:scale-125 transition-transform duration-300'></div>
-                    <div className='ml-auto w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
+                    <div className='ml-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
                       <div className='flex flex-col'>
                         <h3 className='text-lg font-semibold text-gray-900'>Manager, Account Review and Coaching</h3>
                         <p className='mt-1 text-sm text-indigo-600'>Constant Contact • 2014 - 2017</p>
@@ -144,7 +144,7 @@ export default function Work() {
 
                   <div className='relative group'>
                     <div className='absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-600 rounded-full group-hover:scale-125 transition-transform duration-300'></div>
-                    <div className='mr-auto w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
+                    <div className='mr-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
                       <div className='flex flex-col'>
                         <h3 className='text-lg font-semibold text-gray-900'>Manager, Technical Support</h3>
                         <p className='mt-1 text-sm text-indigo-600'>LogMeIn • 2006 - 2014</p>
@@ -209,10 +209,10 @@ export default function Work() {
         <div className='bg-white py-24 sm:py-32'>
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
             <div className='mx-auto max-w-2xl text-center'>
-              <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+              {/* <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
                 Ready to Transform Your Organization?
-              </h2>
-              <p className='mt-6 text-lg leading-8 text-gray-600'>
+              </h2> */}
+              <p className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
                 Let's discuss how my experience in technical leadership and team development can benefit your
                 organization.
               </p>
@@ -223,8 +223,13 @@ export default function Work() {
                 >
                   Get in Touch
                 </a>
-                <a href='/contact' className='text-sm font-semibold leading-6 text-gray-900'>
-                  Learn more <span aria-hidden='true'>→</span>
+                <a
+                  href='/resume.pdf'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='text-sm font-semibold leading-6 text-gray-900'
+                >
+                  View Resume <span aria-hidden='true'>→</span>
                 </a>
               </div>
             </div>
@@ -236,21 +241,21 @@ export default function Work() {
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
             <div className='mx-auto max-w-2xl text-center'>
               <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>Education</h2>
-              <p className='mt-2 text-lg leading-8 text-gray-600'>Academic achievements and continuous learning</p>
+              <p className='mt-2 text-lg leading-8 text-indigo-600'>Academic achievements and continuous learning</p>
             </div>
             <div className='mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none'>
               <div className='grid grid-cols-1 gap-8 lg:grid-cols-3'>
-                <div className='rounded-2xl bg-gray-50 p-8 shadow-sm'>
+                <div className='rounded-2xl bg-white p-8 shadow-sm'>
                   <h3 className='text-lg font-semibold text-gray-900'>Endicott College</h3>
                   <p className='mt-2 text-gray-600'>MBA/MS, Information Technology</p>
                   <p className='text-sm text-indigo-600'>TBD</p>
                 </div>
-                <div className='rounded-2xl bg-gray-50 p-8 shadow-sm'>
+                <div className='rounded-2xl bg-white p-8 shadow-sm'>
                   <h3 className='text-lg font-semibold text-gray-900'>Georgia Southern University</h3>
                   <p className='mt-2 text-gray-600'>BBA, Business and Information Systems</p>
                   <p className='text-sm text-indigo-600'>2002</p>
                 </div>
-                <div className='rounded-2xl bg-gray-50 p-8 shadow-sm'>
+                <div className='rounded-2xl bg-white p-8 shadow-sm'>
                   <h3 className='text-lg font-semibold text-gray-900'>Georgia Southern University</h3>
                   <p className='mt-2 text-gray-600'>BA, History, Asian Studies</p>
                   <p className='text-sm text-indigo-600'>1996</p>

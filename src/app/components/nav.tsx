@@ -16,7 +16,7 @@ export default function Navigation() {
     <header className='sticky top-0 z-50'>
       <nav
         aria-label='Global'
-        className='flex items-center justify-center bg-slate-900/90 backdrop-blur-sm p-4 lg:px-12 shadow-lg'
+        className='flex items-center justify-center bg-slate-900/95 backdrop-blur-sm p-4 lg:px-12 shadow-lg'
       >
         <div className='flex lg:hidden'>
           <button
@@ -30,7 +30,7 @@ export default function Navigation() {
         </div>
         <div className='hidden lg:flex justify-center items-center lg:gap-x-12'>
           {navigation.map(item => (
-            <a key={item.name} href={item.href} className='text-md leading-6 text-white'>
+            <a key={item.name} href={item.href} className='text-sm leading-6 text-white'>
               {item.name}
             </a>
           ))}
@@ -41,13 +41,10 @@ export default function Navigation() {
         <DialogPanel className='fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
           <div className='flex items-center justify-between'>
             <a href='#' className='-m-1.5 p-1.5'>
-              <span className='sr-only'>Your Company</span>
-              <img
-                alt=''
-                src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
-                className='h-8 w-auto'
-              />
+              {/* <span className='sr-only'>Your Company</span> */}
+              <img alt='Selfie' src='/selfie2.png' className='h-8 w-8 rounded-full border-1 border-gray-900' />
             </a>
+
             <button
               type='button'
               onClick={() => setMobileMenuOpen(false)}

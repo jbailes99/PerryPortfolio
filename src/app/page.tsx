@@ -29,10 +29,11 @@ import {
 import { SocialIcon } from 'react-social-icons'
 import 'react-social-icons/linkedin'
 
-const BetterVet = '/thevets.png'
+const TheVets = '/thevets.png'
+const BetterVet = '/betterVet.png'
 const ConstantContact = '/cc.png'
 const LogMeIn = '/logmein.png'
-const WFF = '/wff.png'
+const WFF = '/WFF12.png'
 const selfie = '/selfie.jpg'
 const selfie2 = '/selfie2.png'
 
@@ -85,7 +86,7 @@ export default function Example() {
     <div className='bg-white'>
       <main>
         {/* Hero section */}
-        <div className='relative isolate overflow-hidden bg-white pb-16 pt-14 sm:pb-10 shadow-sm'>
+        <div className='relative isolate overflow-hidden bg-white pb-16 sm:pt-14 sm:pb-10 shadow-sm'>
           <div
             aria-hidden='true'
             className='absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'
@@ -99,7 +100,7 @@ export default function Example() {
             />
           </div>
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-            <div className='mx-auto max-w-6xl justify-center py-32 sm:py-48 lg:py-12'>
+            <div className='mx-auto max-w-6xl justify-center py-10 sm:py-48 lg:py-12'>
               <div className='absolute left-[calc(50%-19rem)] top-[calc(50%-36rem)] transform-gpu blur-3xl'>
                 <div
                   style={{
@@ -121,7 +122,7 @@ export default function Example() {
                     />
                   </div>
                   <h1 className='text-6xl font-bold tracking-tight text-gray-200 m:text-9xl'>Perry Bailes</h1>
-                  <p className='mt-6 w-3/4 mx-auto text-lg leading-8 text-center text-gray-200'>
+                  <p className='mt-6 sm:w-3/4 mx-auto text-lg leading-8 text-center text-gray-200'>
                     Experienced professional with a passion for delivering exceptional results. Skilled in leading
                     teams, managing projects, and solving complex problems. Dedicated to continuous improvement and
                     achieving excellence in all endeavors.
@@ -131,7 +132,7 @@ export default function Example() {
             </div>
 
             {/* Logo cloud */}
-            <div className='mx-auto flex flex-grid max-w-lg grid-cols-4 justify-center items-center gap-x-12 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-24 lg:mx-0 lg:max-w-none lg:grid-cols-5'>
+            <div className='mx-auto flex flex-col items-center gap-y-6 sm:grid sm:max-w-xl sm:grid-cols-6 sm:gap-x-24 sm:gap-y-10 lg:mx-0 lg:max-w-none lg:grid-cols-5 justify-center'>
               <div className='flex justify-center items-center group'>
                 <a
                   href={companyLinks.wff}
@@ -139,7 +140,25 @@ export default function Example() {
                   rel='noopener noreferrer'
                   className='block transform transition-all duration-300 ease-in-out hover:scale-110'
                 >
-                  <img alt='Wicked Frosty Farms' src={WFF} className='rounded-md p-2 max-h-16 w-auto object-contain' />
+                  <img
+                    alt='Wicked Frosty Farms'
+                    src={WFF}
+                    className='rounded-md p-2 max-h-20 sm:max-h-24 w-auto object-contain'
+                  />
+                </a>
+              </div>
+              <div className='flex justify-center items-center group'>
+                <a
+                  href={companyLinks.wff}
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='block transform transition-all duration-300 ease-in-out hover:scale-110'
+                >
+                  <img
+                    alt='Better Vet'
+                    src={BetterVet}
+                    className='rounded-md p-2 max-h-16 sm:max-h-24 w-auto object-contain'
+                  />
                 </a>
               </div>
               <div className='flex justify-center items-center group'>
@@ -152,7 +171,7 @@ export default function Example() {
                   <img
                     alt='Constant Contact'
                     src={ConstantContact}
-                    className='rounded-md p-2 max-h-16 w-auto object-contain'
+                    className='rounded-md p-2 max-h-16 sm:max-h-36 w-auto object-contain'
                   />
                 </a>
               </div>
@@ -163,7 +182,11 @@ export default function Example() {
                   rel='noopener noreferrer'
                   className='block transform transition-all duration-300 ease-in-out hover:scale-110'
                 >
-                  <img alt='BetterVet' src={BetterVet} className='rounded-md p-2 max-h-24 w-auto object-contain' />
+                  <img
+                    alt='The Vets'
+                    src={TheVets}
+                    className='rounded-md p-2 max-h-36 sm:max-h-24 w-auto object-contain'
+                  />
                 </a>
               </div>
               <div className='flex justify-center items-center group'>
@@ -173,7 +196,11 @@ export default function Example() {
                   rel='noopener noreferrer'
                   className='block transform transition-all duration-300 ease-in-out hover:scale-110'
                 >
-                  <img alt='LogMeIn' src={LogMeIn} className='rounded-md p-2 max-h-16 w-auto object-contain' />
+                  <img
+                    alt='LogMeIn'
+                    src={LogMeIn}
+                    className='rounded-md p-2 max-h-16 sm:max-h-16 w-auto object-contain'
+                  />
                 </a>
               </div>
             </div>
@@ -231,7 +258,7 @@ export default function Example() {
             </div>
             <div className='mx-auto flex max-w-7xl flex-col items-center gap-x-8 gap-y-10 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch'>
               <div className='-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none'>
-                <div className='relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto'>
+                <div className='relative aspect-[3/4]  h-full md:-mx-8 xl:mx-0 xl:aspect-auto'>
                   <Image
                     alt=''
                     src='/selfie.jpg'
@@ -271,7 +298,7 @@ export default function Example() {
             </div>
           </div>
 
-          <div className='mx-auto mt-8 max-w-7xl px-6 py-20 lg:px-8'>
+          <div className='mx-auto mt-8 max-w-7xl px-6 py-24 lg:px-8'>
             <dl className='mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-md leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
               {features.slice(3).map(feature => (
                 <div key={feature.name} className='relative pl-9'>
