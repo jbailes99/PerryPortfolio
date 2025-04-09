@@ -46,7 +46,7 @@ export default function Work() {
               <div className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
                 <div className='rounded-2xl bg-gray-50 p-8'>
                   <h3 className='text-lg font-semibold leading-8 text-gray-900'>Technical Systems</h3>
-                  <ul className='mt-4 space-y-2 text-gray-600'>
+                  <ul className='mt-4 space-y-2 text-indigo-600'>
                     <li>• CRM & AI Implementation</li>
                     <li>• System Administration</li>
                     <li>• Infrastructure Management</li>
@@ -55,7 +55,7 @@ export default function Work() {
                 </div>
                 <div className='rounded-2xl bg-gray-50 p-8'>
                   <h3 className='text-lg font-semibold leading-8 text-gray-900'>Leadership</h3>
-                  <ul className='mt-4 space-y-2 text-gray-600'>
+                  <ul className='mt-4 space-y-2 text-indigo-600'>
                     <li>• Team Development</li>
                     <li>• Strategic Planning</li>
                     <li>• Budget Management</li>
@@ -64,7 +64,7 @@ export default function Work() {
                 </div>
                 <div className='rounded-2xl bg-gray-50 p-8'>
                   <h3 className='text-lg font-semibold leading-8 text-gray-900'>Business Impact</h3>
-                  <ul className='mt-4 space-y-2 text-gray-600'>
+                  <ul className='mt-4 space-y-2 text-indigo-600'>
                     <li>• Project Management</li>
                     <li>• Data Analytics</li>
                     <li>• Vendor Relations</li>
@@ -81,7 +81,7 @@ export default function Work() {
           <div className='mx-auto max-w-7xl px-6 lg:px-8'>
             <div className='mx-auto max-w-2xl text-center'>
               <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>Career Journey</h2>
-              <p className='mt-2 text-lg leading-8 text-gray-600'>Two decades of IT leadership and innovation</p>
+              <p className='mt-2 text-lg leading-8 text-indigo-600'>Two decades of IT leadership and innovation</p>
             </div>
             <div className='mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none'>
               <div className='relative'>
