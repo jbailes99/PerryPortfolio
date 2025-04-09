@@ -16,7 +16,7 @@ export default function Navigation() {
     <header className='sticky top-0 z-50'>
       <nav
         aria-label='Global'
-        className='flex items-center justify-center bg-gray-900/98 backdrop-blur-sm p-4 lg:px-12 shadow-lg'
+        className='flex items-center justify-center bg-slate-900/90 backdrop-blur-sm p-4 lg:px-12 shadow-lg'
       >
         <div className='flex lg:hidden'>
           <button
