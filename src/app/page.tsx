@@ -202,15 +202,15 @@ export default function Example() {
               </p>
             </div>
           </div>
-          <div className='mx-auto mt-8 max-w-7xl px-6  lg:px-8'>
-            <dl className='mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
+          <div className='mx-auto mt-8 max-w-7xl py-12 px-6  lg:px-8'>
+            <dl className='mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-md leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
               {features.slice(0, 3).map(feature => (
                 <div key={feature.name} className='relative pl-9'>
-                  <dt className='inline font-semibold text-gray-900'>
+                  <dt className='font-semibold text-gray-900'>
                     <feature.icon aria-hidden='true' className='absolute left-1 top-1 h-5 w-5 text-indigo-600' />
                     {feature.name}
-                  </dt>{' '}
-                  <dd className='inline'>{feature.description}</dd>
+                  </dt>
+                  <dd className='mt-2'>{feature.description}</dd>
                 </div>
               ))}
             </dl>
@@ -272,14 +272,14 @@ export default function Example() {
           </div>
 
           <div className='mx-auto mt-8 max-w-7xl px-6 py-20 lg:px-8'>
-            <dl className='mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-base leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
+            <dl className='mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 text-md leading-7 text-gray-600 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16'>
               {features.slice(3).map(feature => (
                 <div key={feature.name} className='relative pl-9'>
-                  <dt className='inline font-semibold text-gray-900'>
+                  <dt className='font-semibold text-gray-900'>
                     <feature.icon aria-hidden='true' className='absolute left-1 top-1 h-5 w-5 text-indigo-600' />
                     {feature.name}
-                  </dt>{' '}
-                  <dd className='inline'>{feature.description}</dd>
+                  </dt>
+                  <dd className='mt-2'>{feature.description}</dd>
                 </div>
               ))}
             </dl>

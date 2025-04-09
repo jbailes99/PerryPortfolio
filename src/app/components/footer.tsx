@@ -8,8 +8,8 @@ export default function Footer() {
 
   return (
     <footer className='bg-gray-900 text-white '>
-      <div className='container mx-auto px-4'>
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mt-12'>
+      <div className='container  mx-auto px-4'>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
           {/* Quick Links */}
           <div className='flex flex-col  items-center text-center'>
             <h3 className='text-sm mb-2 text-blue-100 mt-2'>Quick Links</h3>
@@ -21,7 +21,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href='/Work' className='hover:text-blue-400 transition-colors'>
-                  Work
+                  Experience & Expertise
                 </Link>
               </li>
               <li>
@@ -48,9 +48,10 @@ export default function Footer() {
 
               <a
                 href='/resume.pdf'
-                download
+                target='_blank'
+                rel='noopener noreferrer'
                 className='hover:text-blue-400 transition-colors'
-                aria-label='Download Resume'
+                aria-label='View Resume'
               >
                 <FaFilePdf size={16} />
               </a>
@@ -72,7 +73,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className='py-2 border-t border-gray-800 text-center'>
+        <div className='py-2 border-t w-1/2 mx-auto border-gray-800 text-center'>
           <p className='text-xs'>&copy; {currentYear} Perry Bailes</p>
         </div>
       </div>
