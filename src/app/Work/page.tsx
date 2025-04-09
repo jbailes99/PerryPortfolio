@@ -89,7 +89,7 @@ export default function Work() {
                 <div className='space-y-8'>
                   <div className='relative group'>
                     <div className='absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-600 rounded-full group-hover:scale-125 transition-transform duration-300'></div>
-                    <div className='ml-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
+                    <div className='ml-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm transition-all duration-300 transform group-hover:scale-[1.1] hover:shadow-lg cursor-pointer'>
                       <div className='flex flex-col'>
                         <h3 className='text-lg font-semibold text-gray-900'>Director of IT and Technical Operations</h3>
                         <p className='mt-1 text-sm text-indigo-600'>TheVets • 2024 - Present</p>
@@ -108,7 +108,7 @@ export default function Work() {
 
                   <div className='relative group'>
                     <div className='absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-600 rounded-full group-hover:scale-125 transition-transform duration-300'></div>
-                    <div className='mr-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
+                    <div className='mr-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm transition-all duration-300 transform group-hover:scale-[1.1] hover:shadow-lg cursor-pointer'>
                       <div className='flex flex-col'>
                         <h3 className='text-lg font-semibold text-gray-900'>Director of Technology</h3>
                         <p className='mt-1 text-sm text-indigo-600'>BetterVet • 2021 - 2024</p>
@@ -126,7 +126,7 @@ export default function Work() {
 
                   <div className='relative group'>
                     <div className='absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-600 rounded-full group-hover:scale-125 transition-transform duration-300'></div>
-                    <div className='ml-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
+                    <div className='ml-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm transition-all duration-300 transform group-hover:scale-[1.1] hover:shadow-lg cursor-pointer'>
                       <div className='flex flex-col'>
                         <h3 className='text-lg font-semibold text-gray-900'>Manager, Account Review and Coaching</h3>
                         <p className='mt-1 text-sm text-indigo-600'>Constant Contact • 2014 - 2017</p>
@@ -144,7 +144,7 @@ export default function Work() {
 
                   <div className='relative group'>
                     <div className='absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-600 rounded-full group-hover:scale-125 transition-transform duration-300'></div>
-                    <div className='mr-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 transform hover:-translate-y-1'>
+                    <div className='mr-auto sm:w-5/12 p-6 bg-white rounded-lg shadow-sm transition-all duration-300 transform group-hover:scale-[1.1] hover:shadow-lg cursor-pointer'>
                       <div className='flex flex-col'>
                         <h3 className='text-lg font-semibold text-gray-900'>Manager, Technical Support</h3>
                         <p className='mt-1 text-sm text-indigo-600'>LogMeIn • 2006 - 2014</p>
